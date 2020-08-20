@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorA"
+    android:orientation="vertical"
+    tools:context=".AlarmActivity4">
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time"
+        android:layout_marginLeft="110dp"
+        android:hint="@string/string_3"
+        android:layout_marginTop="70dp"
+
+        android:layout_width="180dp"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+
+        android:layout_marginBottom="30dp"
+        android:hint="@string/string_4"
+
+        android:inputType="time" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="148dp"
+        android:background="@color/colorr"
+        android:layout_height="wrap_content"
+        android:text="Set Reminder"
+        android:textStyle="bold"
+        android:layout_marginLeft="125dp"
+        />
+</LinearLayout>

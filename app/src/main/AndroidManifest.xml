@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.test3">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".cutActivity"></activity>
+        <activity android:name=".waterDrawn" />
+        <activity android:name=".breathActivity" />
+        <activity android:name=".burnActivity" />
+        <activity android:name=".fructureActivity" />
+        <activity android:name=".babycare" />
+        <activity android:name=".delivery" />
+        <activity android:name=".physical" />
+        <activity android:name=".health_eating" />
+        <activity android:name=".problem" />
+        <activity android:name=".symptoms" />
+        <activity android:name=".parenting" />
+        <activity android:name=".food_nutrition" />
+        <activity android:name=".exercise" />
+        <activity android:name=".Firstaid" />
+        <activity android:name=".Mother_child" />
+        <activity android:name=".AlarmActivity6" />
+        <activity android:name=".AlarmActivity5" />
+        <activity android:name=".AlarmActivity4" />
+        <activity android:name=".AlarmActivity3" />
+        <activity android:name=".HealthActivity" />
+        <activity android:name=".AlarmActivity" />
+        <activity android:name=".AlarmActivity2" />
+        <activity android:name=".NewActivity" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".ZoneamsylhetActivity" />
+        <activity android:name=".ZoneamchittagongActivity" />
+        <activity android:name=".ZoneambarisalActivity" />
+        <activity android:name=".ZoneambholaActivity" />
+        <activity android:name=".ZoneambulanceActivity" />
+        <activity android:name=".DoctorrefbarisalActivity" />
+        <activity android:name=".DoctorrefsylhetActivity" />
+        <activity android:name=".DoctorrefchittagongActivity" />
+        <activity android:name=".DoctorrefbholaActivity" />
+        <activity android:name=".ZoneActivity" />
+        <activity android:name=".DoctorsreferenceActivity" />
+        <activity android:name=".AmbulanceActivity" />
+        <activity android:name=".Bmi3Activity" />
+        <activity android:name=".Bmi2Activity" />
+        <activity android:name=".Bmi1Activity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".MyBroadcastReciever" />
+    </application>
+
+</manifest>

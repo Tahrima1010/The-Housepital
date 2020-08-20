@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Test3</string>
+    <string name="linktosite">
+       <a href="https://www.doctorsbd.com/lubnaderma">https://www.doctorsbd.com/lubnaderma</a>
+    </string>
+    <string name="linktositeone">
+       <a href="https://www.doctorsbd.com/drmasalam">https://www.doctorsbd.com/drmasalam</a>
+    </string>
+    <string name="linktosittwo">
+       <a href="https://www.doctorsbd.com/drbaqui">https://www.doctorsbd.com/drbaqui</a>
+    </string>
+    <string name="linktositthree">
+       <a href="https://www.doctorsbd.com/jkmzaman"> https://www.doctorsbd.com/jkmzaman</a>
+    </string>
+    <string name="linktositfour">
+       <a href="https://www.doctorsbd.com/mohammadali"> https://www.doctorsbd.com/mohammadali</a>
+    </string>
+    <string name="linktositeba">
+       <a href="https://www.doctor360.com.bd/dermatologist/barisal-district-barisal-8200/prof-ma-khalil-ur-rahman-dermatologist"> https://www.doctor360.com.bd/dermatologist/barisal-district-barisal-8200/prof-ma-khalil-ur-rahman-dermatologist</a>
+    </string>
+    <string name="linktositbho">
+       <a href="https://www.doctor360.com.bd/dermatologist/barisal-district-barisal-8200/dr-prodip-kumar-bonik-dermatologist"> https://www.doctor360.com.bd/dermatologist/barisal-district-barisal-8200/dr-prodip-kumar-bonik-dermatologist</a>
+    </string>
+    <string name="linktositchittagong">
+       <a href="http://ctgdoctorsinfo.blogspot.com/2011/11/eye-specialists.html"> http://ctgdoctorsinfo.blogspot.com/2011/11/eye-specialists.html</a>
+    </string>
+    <string name="linktositchittagongone">
+       <a href="http://ctgdoctorsinfo.blogspot.com/2011/11/diabetis-specialists-in-chittagong.html">http://ctgdoctorsinfo.blogspot.com/2011/11/diabetis-specialists-in-chittagong.html</a>
+    </string>
+    <string name="linktosibaone">
+       <a href="https://www.finddoctor24.com/find-specialist-doctors-barisal/">https://www.finddoctor24.com/find-specialist-doctors-barisal/</a>
+    </string>
+    <string name="linktosibathree">
+       <a href="https://www.finddoctor24.com/find-specialist-doctors-barisal/">https://www.finddoctor24.com/find-specialist-doctors-barisal/</a>
+    </string>
+    <string name="linktositechittagong">
+       <a href="https://findoutadoctor.blogspot.com/2016/10/medicine-specialist-in-chittagong.html">https://findoutadoctor.blogspot.com/2016/10/medicine-specialist-in-chittagong.html</a>
+    </string>
+    <string name="linktositechittagongon">
+       <a href="https://doctorctg.blogspot.com/2015/10/cancer-specialists-in-chittagong.html">https://doctorctg.blogspot.com/2015/10/cancer-specialists-in-chittagong.html</a>
+    </string>
+    <string name="linktositsulhet">
+       <a href="https://doctoryouneed.org/md-astefsar-hussain/">https://doctoryouneed.org/md-astefsar-hussain/</a>
+    </string>
+    <string name="linktositsylhet">
+       <a href="https://doctoryouneed.org/dr-mohammad-shoyab/">https://doctoryouneed.org/dr-mohammad-shoyab/</a>
+    </string>
+    <string name="linktositshylhet">
+       <a href="https://sylhet-sadar.infoisinfo.com.bd/card/dr-md-noazesh-khan/34860">https://sylhet-sadar.infoisinfo.com.bd/card/dr-md-noazesh-khan/34860</a>
+    </string>
+    <string name="linktosishylhetone">
+       <a href="https://findoutadoctor.blogspot.com/2018/05/ibn-sina-hospital-sylhet-doctor-list.html">https://findoutadoctor.blogspot.com/2018/05/ibn-sina-hospital-sylhet-doctor-list.html </a>
+    </string>
+
+
+    <string name="text_zone">Select Zone </string>
+    <string name="text_expanded">Expanded</string>
+    <string name="text_collapsed">Collapsed</string>
+
+    <string name="string_1">Medicine</string>
+    <string name="string_2">Water</string>
+    <string name="string_3">Hour</string>
+    <string name="string_4">Minutes</string>
+    <string name="string_5">Name</string>
+    <string name="string_6">Dose</string>
+    <string name="string_7">Shape</string>
+    <string-array name="string_array_zone">
+        <item>Dhaka</item>
+        <item>Barisal</item>
+        <item>Chittagong</item>
+        <item>Sylhet</item>
+        <item>Bhola</item>
+    </string-array>
+
+    <string-array name="mother_child">
+        <item>Parenting Babies During COVID-19</item>
+        <item>Symptoms During pregnancy</item>
+        <item>Problems During pregnancy</item>
+        <item>Healthy Eating</item>
+        <item>Physical Activity of a pregnant women</item>
+        <item>Delivery Risks of pregnant women</item>
+        <item>How to Care Newborn Baby</item>
+
+
+    </string-array>
+
+    <string-array name="first_aiddes">
+        <item>Sudden fracture in your body</item>
+        <item> If Burn Your body part</item>
+        <item>If sudden stop your breath</item>
+        <item>Water Drowning Human</item>
+        <item>If cut your Body part</item>
+
+
+    </string-array>
+
+</resources>

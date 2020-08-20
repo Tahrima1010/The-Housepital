@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".SignUpActivity"
+    android:background="#C0E8EE">
+    <ImageView
+        android:layout_width="198dp"
+        android:layout_height="129dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="3dp"
+        android:src="@drawable/nuhafinal" />
+
+    <TextView
+        android:id="@+id/textviewid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="35dp"
+        android:text="Register   Page"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#033C44"
+        android:fontFamily="sans-serif-smallcaps"/>
+
+    <EditText
+        android:id="@+id/signuptext2"
+        android:layout_width="310dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/edittext_border"
+        android:drawableStart="@drawable/ic_mail_outline_black_24dp"
+
+        android:drawableLeft="@drawable/ic_mail_outline_black_24dp"
+        android:drawablePadding="7dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FF27201F"
+        android:textColorHint="@color/colorPrimaryDark" />
+
+    <EditText
+        android:id="@+id/signuptext3"
+        android:layout_width="310dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="50dp"
+        android:hint="password"
+        android:background="@drawable/edittext_border"
+
+        android:drawableStart="@drawable/ic_lock_outline_black_24dp"
+        android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+        android:drawablePadding="7dp"
+        android:inputType="textPassword"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FF27201F"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif-condensed-light"/>
+    <CheckBox
+        android:id="@+id/showpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Passwordd"/>
+
+
+
+    <Button
+        android:id="@+id/signupbit1"
+        android:layout_width="292dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="sign  up"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:layout_marginLeft="23dp"
+
+        android:background="@drawable/signup_design"
+        android:fontFamily="sans-serif-light"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:id="@+id/signuptextviewid3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Are you already Registered?"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="#110B0B"
+        android:fontFamily="sans-serif-smallcaps"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:id="@+id/signuptextviewid2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Sign In"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="#110B0B"
+        android:fontFamily="sans-serif-smallcaps"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress1"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+
+
+
+
+
+</LinearLayout>

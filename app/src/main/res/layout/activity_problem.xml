@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".problem">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/covidid"
+            android:layout_marginTop="10dp"
+            android:layout_width="500dp"
+            android:layout_height="246dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:src="@drawable/problem">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/headingid_1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingLeft="10dp"
+            android:layout_below="@id/covidid"
+            android:layout_marginTop="30dp"
+            android:background="#58575A"
+            android:text="Problems During pregnancy"
+            android:textColor="#F3F0F8"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/problem1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/headingid_1"
+            android:layout_marginTop="30dp"
+            android:text="Common health problems in pregnancy :"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#0879D3"/>
+
+        <TextView
+            android:id="@+id/problem2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/problem1"
+            android:layout_marginTop="10dp"
+            android:text="During your pregnancy you may have a number of annoying problems that are not dangerous but may need some attention. These problems include cramps, urinary frequency and incontinence, heartburn and indigestion, varicose veins, backache, constipation, haemorrhoids and thrush."
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#1D1C1E"/>
+
+        <TextView
+            android:id="@+id/problem3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/problem2"
+            android:layout_marginTop="10dp"
+            android:text="1. Cramps"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#1D1C1E"/>
+
+
+        <TextView
+            android:id="@+id/problem4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/problem3"
+            android:layout_marginTop="10dp"
+            android:text="2.Urinary frequency - needing to pass urine often"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#1D1C1E"/>
+
+        <TextView
+            android:id="@+id/problem5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/problem4"
+            android:layout_marginTop="20dp"
+            android:text="3. Urinary stress incontinence - leaking urine"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#1D1C1E"/>
+        <TextView
+            android:id="@+id/problem6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/problem5"
+            android:layout_marginTop="10dp"
+            android:text="4. Heartburn and indigestion"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#1D1C1E"/>
+        <TextView
+            android:id="@+id/problem7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/problem6"
+            android:layout_marginTop="10dp"
+            android:text="5. Blocked nose"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#1D1C1E"/>
+        <TextView
+            android:id="@+id/problem8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/problem7"
+            android:layout_marginTop="10dp"
+            android:text="6. Varicose veins - swollen leg veins"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#1D1C1E"/>
+        <TextView
+            android:id="@+id/problem9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/problem8"
+            android:layout_marginTop="10dp"
+            android:text="7. Varicose veins in the genital area"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#1D1C1E"/>
+        <TextView
+            android:id="@+id/problem10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/problem9"
+            android:layout_marginTop="10dp"
+            android:text="8. Constipation and haemorrhoids"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#1D1C1E"/>
+        <TextView
+            android:id="@+id/problem11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/problem10"
+            android:layout_marginTop="10dp"
+            android:text="9. Backache"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#1D1C1E"/>
+        <TextView
+            android:id="@+id/problem12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/problem11"
+            android:layout_marginTop="10dp"
+            android:text="10. Vaginal thrush"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#1D1C1E"/>
+        <TextView
+            android:id="@+id/problem13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/problem12"
+            android:layout_marginTop="10dp"
+            android:text="11. Infections (influenza, chickenpox, shingles, slapped face, whooping cough)"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#1D1C1E"/>
+
+        <TextView
+            android:id="@+id/problem14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/problem13"
+            android:layout_marginTop="10dp"
+            android:text="Sometimes the changes taking place will cause irritation or discomfort, and on occasions they may seem quite alarming. There is rarely any need for alarm but you should mention anything that is worrying you to your maternity team"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#1D1C1E"/>
+        <TextView
+            android:id="@+id/problem15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/problem14"
+            android:layout_marginTop="10dp"
+            android:text="Complete Absence of Pregnancy Symptoms"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#0879D3"/>
+        <TextView
+            android:id="@+id/problem16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/problem15"
+            android:layout_marginTop="10dp"
+            android:text="Some people who are pregnant are relieved to have few or no symptoms, but others worry that a lack of symptoms is a sign that their pregnancy is not healthy or that it could end in miscarriage. If you don't have any pregnancy symptoms at all, rest assured that while it isn't common, it's not impossible.
+Studies have indicated that around 1 in 475 women reach the 5-month (20-week) mark before realizing that they are pregnant.3﻿ Cryptic or denied  pregnancies can occur for many reasons, such as polycystic ovarian syndrome. Sometimes, it's as simple as someone not looking or feeling pregnant until they are nearly halfway through their pregnancy."
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#1D1C1E"/>
+        <TextView
+            android:id="@+id/problem17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/problem16"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#1D1C1E"/>
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

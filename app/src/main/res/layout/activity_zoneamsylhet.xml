@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".AmbulanceActivity"
+    android:background="#F8EEDF"
+    android:padding="8dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:padding="8dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/texthospital"
+                android:layout_width="88dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="HOSPITAL NAME"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#0E0D0D"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textcontac"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="CONTACT NUMBER"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#0E0D0D"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/callbuttonicon"
+                android:layout_width="15dp"
+                android:layout_height="47dp"
+                android:layout_weight="1"
+                android:text="CALL"
+                android:textAlignment="center"
+                android:textColor="#141313"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="8dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="56dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="Ibn Sina Hospital Sylhet Ltd"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#4F2557">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="08212832735"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#0E0D0D">
+
+            </TextView>
+            <Button
+                android:id="@+id/callbutton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="58dp"
+                android:background="@drawable/ic_call_black_24dp">
+
+            </Button>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="70dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="Marie Stopes Clinic "
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#4F2557">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text=" 01711995019"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#0E0D0D">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/callbutton1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="58dp"
+                android:background="@drawable/ic_call_black_24dp">
+
+            </Button>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="56dp"
+                android:layout_height="46dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="Mother Care Clinic"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#4F2557"
+                android:textSize="15dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0821713131"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#0E0D0D">
+
+            </TextView>
+            <Button
+                android:id="@+id/callbutton2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="58dp"
+                android:background="@drawable/ic_call_black_24dp">
+
+            </Button>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="91dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="Mohanagar Hospital"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#4F2557">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0821720431"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#0E0D0D">
+
+            </TextView>
+            <Button
+                android:id="@+id/callbutton3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="58dp"
+                android:background="@drawable/ic_call_black_24dp">
+
+            </Button>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="61dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="Popular Medical Centre Ltd"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#4F2557">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/text10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="01715084078"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#0E0D0D">
+
+            </TextView>
+            <Button
+                android:id="@+id/callbutton4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="58dp"
+                android:background="@drawable/ic_call_black_24dp">
+
+            </Button>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/text11"
+                android:layout_width="43dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="Sadar Hospital"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#4F2557">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/text12"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0821713506"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#0E0D0D">
+
+            </TextView>
+            <Button
+                android:id="@+id/callbutton5"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="58dp"
+                android:background="@drawable/ic_call_black_24dp">
+
+            </Button>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/text13"
+                android:layout_width="61dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="Sylhet Diabetic Hospital"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#4F2557">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/text14"
+                android:layout_width="103dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="8614001-5"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#0E0D0D">
+
+            </TextView>
+            <Button
+                android:id="@+id/callbutton6"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="58dp"
+                android:background="@drawable/ic_call_black_24dp">
+
+            </Button>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/text15"
+                android:layout_width="79dp"
+                android:layout_height="61dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="United Hospital Ltd"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#4F2557">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/text16"
+                android:layout_width="102dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="502024"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#0E0D0D">
+
+            </TextView>
+            <Button
+                android:id="@+id/callbutton7"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="58dp"
+                android:background="@drawable/ic_call_black_24dp">
+
+            </Button>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/text17"
+                android:layout_width="38dp"
+                android:layout_height="67dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="Central Poly Clinic"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#4F2557">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/text18"
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0821714849"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#0E0D0D">
+
+            </TextView>
+            <Button
+                android:id="@+id/callbutton8"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="58dp"
+                android:background="@drawable/ic_call_black_24dp">
+
+            </Button>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/text19"
+                android:layout_width="61dp"
+                android:layout_height="63dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="Rail Way Hospital"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#4F2557">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/text20"
+                android:layout_width="119dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="502220"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#0E0D0D">
+
+            </TextView>
+            <Button
+                android:id="@+id/callbutton9"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="58dp"
+                android:background="@drawable/ic_call_black_24dp">
+
+            </Button>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+

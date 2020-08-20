@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".parenting">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/covidid"
+            android:layout_marginTop="10dp"
+            android:layout_width="500dp"
+            android:layout_height="246dp"
+            android:src="@drawable/covid">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/headingid_1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingLeft="10dp"
+            android:layout_below="@id/covidid"
+            android:layout_marginTop="30dp"
+            android:background="#58575A"
+            android:text="Parenting Babies During COVID-19"
+            android:textColor="#F3F0F8"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/desid1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/headingid_1"
+            android:layout_marginTop="34dp"
+            android:paddingLeft="10dp"
+            android:text="While most COVID-19 infections have been diagnosed in adults, kids can get infected. In children, the virus sometimes causes a mild illness, and often causes no symptoms at all. But some babies and children have gotten very sick from the virus, sometimes weeks after becoming infected. Babies can't wear a face covering, so it's important to protect them in other ways."
+            android:textColor="#1D1C1E"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/desid2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/desid1"
+            android:layout_marginTop="20dp"
+            android:text="Children of all ages can become ill with coronavirus disease 2019 (COVID-19). But most kid who are infected typically don't become as sick as adults and some might not show any symptoms at all. Know the symptoms of COVID-19 in babies and children, why childrenn might be affected differrently by COVID-19 and what you can do to prevent the spread of the virus."
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#1D1C1E"/>
+
+        <TextView
+            android:id="@+id/desid3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/desid2"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#067AD6"
+            android:text="Tips For parenting during Covid-19 : "
+            />
+        <TextView
+            android:id="@+id/desid4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/desid3"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#1D1C1E"
+            android:text="* Try all the soothing tricks : Crying babies want to be soothed. You may need to try a few thing, over and over before they calm. Try holding them, feeding them, swadding them,gently rocking them, singing to them. Tf these don't work, put the baby down and take a break. Be sure your baby is in aa safe sleep environment. While some babies cry for a long time, many parents are surprised at how rapidly babies will cry themselves to sleep.
+"
+            />
+        <TextView
+            android:id="@+id/desid5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/desid4"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#067AD6"
+            android:text="One-on-one time During COVID-19 : "/>
+
+        <TextView
+            android:id="@+id/desid6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/desid5"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#1D1C1E"
+            android:text="School shutdown is also a chance to make better relationship with our children and teenagers. One-on-one time is free and fun. it makes childen feel better, loved and secure and shows them they are important."/>
+
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

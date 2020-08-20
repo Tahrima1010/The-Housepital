@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".symptoms">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/covidid"
+            android:layout_marginTop="10dp"
+            android:layout_width="500dp"
+            android:layout_height="246dp"
+            android:src="@drawable/symptos">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/headingid_1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingLeft="10dp"
+            android:layout_below="@id/covidid"
+            android:layout_marginTop="30dp"
+            android:background="#58575A"
+            android:text="Symptoms During pregnancy"
+            android:textColor="#F3F0F8"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/desid1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/headingid_1"
+            android:layout_marginTop="30dp"
+            android:text="Do All Women Get Early Symptoms of Pregnancy?"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#0879D3"/>
+        <TextView
+            android:id="@+id/desid2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/desid1"
+            android:layout_marginTop="10dp"
+            android:text="Every woman is different. So are her experiences of pregnancy. Not every woman has the same symptoms or even the same symptoms from one pregnancy to the next.Also, because the early symptoms of pregnancy often mimic the symptoms you might experience right before and during menstruation, you may not realize you're pregnant.What follows is a description of some of the most common early symptoms of pregnancy. You should know that these symptoms may be caused by other things besides being pregnant. So the fact that you notice some of these symptoms does not necessarily mean you are pregnant. The only way to tell for sure is with a pregnancy test."
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#1D1C1E"/>
+
+        <TextView
+            android:id="@+id/desid3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/desid2"
+            android:layout_marginTop="10dp"
+            android:text="1. Missed (late) period: A missed menstrual period is the hallmark symptom of pregnancy, and menstruation is absent throughout the pregnancy. Sometimes, the mild cramping and spotting experienced at the time of implantation of the fertilized egg in the uterus (see later) can be mistaken for a menstrual period. Women whose menstrual cycles are irregular may also not immediately notice the absence of a menstrual period. It is uncommon for signs and symptoms of pregnancy to appear before the missed period, but if a woman’s cycles are irregular, this may happen."
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#1D1C1E"/>
+        <TextView
+            android:id="@+id/desid4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/desid3"
+            android:layout_marginTop="10dp"
+            android:text="2. Implantation bleeding or cramping: Mild bleeding or spotting may occur when the fertilized egg attaches to the uterine lining, anywhere from 6 to 12 days after fertilization. Mild cramping can also occur at this time. Implantation bleeding may sometimes be mistaken for a menstrual period, although it is usually much lighter than a regular period."
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#1D1C1E"/>
+        <TextView
+            android:id="@+id/desid5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/desid4"
+            android:layout_marginTop="10dp"
+            android:text="3. Vaginal discharge: Some women may notice a thick, milky discharge from the vagina in early pregnancy. This occurs in the first weeks of pregnancy as the vaginal walls thicken. This discharge may occur throughout the pregnancy. If there is an unpleasant odor associated with the discharge, or if it is associated with burning and itching, this is a sign of a yeast or bacterial infection. You should contact your health-care professional if this occurs."
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#1D1C1E"/>
+        <TextView
+            android:id="@+id/desid6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/desid5"
+            android:layout_marginTop="10dp"
+            android:text="4. Breast changes: Many women experience changes in the breasts as early as the first weeks of pregnancy. These changes can be felt as soreness, tenderness, heaviness, fullness, or a tingling sensation. The discomfort typically decreases after several weeks."
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#1D1C1E"/>
+        <TextView
+            android:id="@+id/desid7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/desid6"
+            android:layout_marginTop="10dp"
+            android:text="5. Darkening of the areola: The areola, or area around the nipple, may darken in color."
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#1D1C1E"/>
+
+
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9E1E3"
+    tools:context=".DoctorsreferenceActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="DISEASES NAME"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#0E0D0D">
+
+            </TextView>
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="DOCTORS NAME"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textColor="#0E0D0D"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium">
+
+            </TextView>
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="WEBSITE LINK"
+                android:textColor="#0E0D0D"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium">
+
+            </TextView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:text="Allergy"
+                android:fontFamily="sans-serif-condensed"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#581F0E">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="0dp"
+                android:layout_height="110dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+
+                android:text="Prof. M.A Khalil-Ur-Rahman"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#0E0D0D">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="0dp"
+                android:layout_height="185dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="@string/linktositeba"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#0E0D0D"
+                android:textColorHint="#1870B6"
+                android:textSize="15dp">
+
+            </TextView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+
+                android:text="Gynecology problem"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#581F0E">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="sans-serif-condensed"
+
+                android:layout_weight="1"
+                android:text="Dr. M. Anwar Hossen"
+                android:textColor="#0E0D0D"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="0dp"
+                android:layout_height="123dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+
+                android:text="@string/linktosibaone"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#0E0D0D">
+
+            </TextView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/text10"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+
+                android:gravity="center"
+                android:text="Heart failure"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#581F0E">
+
+            </TextView>
+            <TextView
+                android:id="@+id/text11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="Dr. M.A. Baqui"
+                android:fontFamily="sans-serif-condensed"
+
+                android:textColor="#0E0D0D"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/text12"
+                android:layout_width="0dp"
+                android:layout_height="88dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+
+                android:gravity="center"
+                android:text="@string/linktosittwo"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#0E0D0D">
+
+            </TextView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/text13"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="Fever"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#581F0E">
+
+            </TextView>
+            <TextView
+                android:id="@+id/text14"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-condensed"
+
+                android:text="Dr. GKM. Shahiduzzaman"
+                android:textColor="#0E0D0D"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/text15"
+                android:layout_width="0dp"
+                android:layout_height="104dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:fontFamily="sans-serif-condensed"
+
+                android:text="@string/linktositthree"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#0E0D0D">
+
+            </TextView>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/text16"
+                android:layout_width="0dp"
+                android:layout_height="156dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Food Poisoning"
+                android:fontFamily="sans-serif-condensed"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#581F0E">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/text17"
+                android:layout_width="0dp"
+                android:layout_height="51dp"
+                android:fontFamily="sans-serif-condensed"
+
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Dr. Sawpan Kumar Sarkar
+"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#0E0D0D">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/text18"
+                android:layout_width="0dp"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="@string/linktosibathree"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#0E0D0D">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

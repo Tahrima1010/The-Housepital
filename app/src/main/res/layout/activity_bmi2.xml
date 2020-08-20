@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorP"
+    android:padding="30dp"
+    tools:context=".Bmi2Activity">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:id="@+id/tv1"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Weight "
+            android:textSize="30dp"
+            />
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="70dp"
+            android:hint="i.e.55"
+            android:textColorHint="@android:color/background_dark"
+            android:textColor="#FF27201F"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:inputType="numberDecimal"
+            android:layout_marginLeft="100dp"
+            android:background="@android:color/background_light"
+            />
+        <TextView
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:id="@+id/tv2"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Height "
+            android:textSize="30dp"
+            />
+        <EditText
+            android:id="@+id/et2"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="170dp"
+            android:hint="i.e.5"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textColor="#FF27201F"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:inputType="numberDecimal"
+            android:layout_marginLeft="100dp"
+            android:background="@android:color/background_light"
+            />
+        <EditText
+            android:id="@+id/et10"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="170dp"
+            android:hint="i.e.5"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textColor="#FF27201F"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:inputType="numberDecimal"
+            android:layout_marginLeft="180dp"
+            android:background="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="233dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="220dp"
+            android:background="@color/colorAccent"
+            android:text="CALCULATE"
+            android:textStyle="bold"></Button>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="246dp"
+            android:layout_below="@+id/b1"
+            android:layout_marginTop="60dp"
+
+            android:src="@drawable/bmichart">
+
+        </ImageView>
+
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
