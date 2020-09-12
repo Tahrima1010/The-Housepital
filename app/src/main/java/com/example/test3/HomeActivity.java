@@ -29,7 +29,7 @@ public class HomeActivity extends AppCompatActivity  implements View.OnClickList
         setContentView(R.layout.activity_home);
 
         searchv =findViewById(R.id.searchid);
-        periodev =findViewById(R.id.priode);
+        periodev =findViewById(R.id.period);
         helthv =findViewById(R.id.helthtips);
         alarmv =findViewById(R.id.alarm);
         ambuv =findViewById(R.id.ambulance);
@@ -106,6 +106,16 @@ public class HomeActivity extends AppCompatActivity  implements View.OnClickList
                 intent = new Intent(HomeActivity.this, HealthActivity.class);
                 startActivity(intent);
                 break;
+            case R.id.scanner :
+                intent = new Intent(HomeActivity.this, Report.class);
+                startActivity(intent);
+                break;
+            case R.id.period :
+                intent = new Intent(HomeActivity.this, Period.class);
+                startActivity(intent);
+                break;
+
+
 
 
 

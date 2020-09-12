@@ -5,15 +5,36 @@
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Housepital"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".cutActivity"></activity>
+        <activity android:name=".Period3"></activity>
+        <activity android:name=".Period2" />
+        <activity android:name=".Period" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.test3"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_path" />
+        </provider>
+
+        <activity android:name=".reportimage" />
+        <activity android:name=".Report" />
+        <activity android:name=".cutActivity" />
         <activity android:name=".waterDrawn" />
         <activity android:name=".breathActivity" />
         <activity android:name=".burnActivity" />
@@ -65,6 +86,7 @@
         </activity>
 
         <receiver android:name=".MyBroadcastReciever" />
+        <receiver android:name=".PeriodBroadcast" />
     </application>
 
 </manifest>

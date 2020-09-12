@@ -67,7 +67,7 @@ public class AmbulanceActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Intent.ACTION_CALL);
-                i.setData(Uri.parse("tel:" + text.getText().toString()));
+                i.setData(Uri.parse("tel:" + text.getText().toString()));//resource
                 if (checkSelfPermission(Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
                     // TODO: Consider calling
                     //    Activity#requestPermissions
@@ -99,10 +99,16 @@ public class AmbulanceActivity extends AppCompatActivity {
                 Intent i = new Intent(Intent.ACTION_CALL);
                 i.setData(Uri.parse("tel:" + textt2.getText().toString()));
                 if (checkSelfPermission(Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+                    //ActivityCompat.requestPermissions(AmbulanceActivity.this,new String[]{Manifest.permission.CALL_PHONE},0);
 
-                    return;
-                }
-                startActivity(i);
+
+
+                   return;
+                }//else
+               // {
+                    startActivity(i);
+                //}
+
             }
         });
         callbutton3.setOnClickListener(new View.OnClickListener() {

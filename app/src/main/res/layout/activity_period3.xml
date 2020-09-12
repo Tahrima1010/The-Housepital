@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#F3D0ED"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Period3">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/t1"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0E145A"
+            android:gravity="center"
+            android:textSize="23dp"
+            android:text="MOOD SWINGS"
+            />
+        <ImageView
+            android:id="@+id/bt1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/mood"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/t1"
+          />
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt1"
+            android:textColor="#222020"
+            android:layout_marginLeft="10dp"
+            android:text="Imbalanced hormone level are the most common cause for change in mood swings."
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+        <TextView
+            android:id="@+id/t3"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0E145A"
+            android:gravity="center"
+            android:textSize="23dp"
+            android:text="FOODS  CRAVINGS"
+            android:layout_below="@+id/t2"
+            />
+        <ImageView
+            android:id="@+id/bt2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/cravings"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/t3"
+            />
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt2"
+            android:textColor="#222020"
+            android:layout_marginLeft="10dp"
+            android:text="Eat vegetables,fruits,protine,fiber.Many of us may get cravings for unhealthy foods but we should try to eat healthy foods. "
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+        <TextView
+            android:id="@+id/t5"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0E145A"
+            android:gravity="center"
+            android:textSize="23dp"
+            android:text="EXERCISE  MEDICATION"
+            android:layout_below="@+id/t4"
+            />
+        <ImageView
+            android:id="@+id/bt3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/exercise"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/t5"
+            />
+        <TextView
+            android:id="@+id/t6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt3"
+            android:textColor="#222020"
+            android:layout_marginLeft="10dp"
+            android:text="One should do simple exercises and medications during this to stay fit."
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+        <TextView
+            android:id="@+id/t7"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0E145A"
+            android:gravity="center"
+            android:textSize="23dp"
+            android:text="HELPFUL MEDICINES"
+            android:layout_below="@+id/t6"
+            />
+        <ImageView
+            android:id="@+id/bt4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/painkillers"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/t6"
+            />
+        <TextView
+            android:id="@+id/t8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt4"
+            android:textColor="#222020"
+            android:layout_marginLeft="10dp"
+            android:text="Though painkillers are not good for health but in case of excessive pain one can have painkillers like diclofenac, ibuprofen and naproxen can help relieve severe period pain."
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+        <TextView
+        android:id="@+id/t9"
+        android:layout_marginTop="300dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0E145A"
+        android:gravity="center"
+
+        android:textSize="23dp"
+        android:text="PERIOD FLOW"
+        android:layout_below="@+id/t8"
+        />
+        <ImageView
+            android:id="@+id/bt5"
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:src="@drawable/bleeding"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/t9"
+            />
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

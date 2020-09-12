@@ -7,7 +7,9 @@
 
     tools:context=".NewActivity">
 
+
     <TextView
+
         android:id="@+id/textview"
         android:text="Item details here"
         android:textSize="30dp"

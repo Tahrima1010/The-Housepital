@@ -128,7 +128,7 @@ public class SignUpActivity extends AppCompatActivity  implements View.OnClickLi
                            {
                                // Sign in success, update UI with the signed-in user's information
                                finish();
-                               Intent intent =new Intent(getApplicationContext(),HomeActivity.class);
+                               Intent intent =new Intent(getApplicationContext(),LoginActivity.class);
                                Toast.makeText(getApplicationContext()," User Registered Successfully .please verify your email id.",Toast.LENGTH_SHORT).show();
 
                                intent.addFlags(intent.FLAG_ACTIVITY_CLEAR_TOP);

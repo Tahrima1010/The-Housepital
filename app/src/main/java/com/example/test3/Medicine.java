@@ -3,6 +3,7 @@ package com.example.test3;
 public class Medicine
 { private String name;
     private String dose;
+
     public Medicine()
     {
 

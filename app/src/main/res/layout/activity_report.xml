@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#C3E6DC"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Report">
+    <EditText
+        android:id="@+id/reportedittext1"
+        android:layout_width="135dp"
+        android:background="#F9FFFE"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="122dp"
+        android:layout_marginTop="50dp"
+
+
+        android:inputType="text" />
+
+
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="220dp"
+        android:layout_below="@+id/reportedittext1"
+
+        android:padding="10dp">
+
+    </ImageView>
+
+
+    <Button
+        android:id="@+id/reportbutton1"
+        android:layout_width="106dp"
+        android:layout_below="@+id/image1"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:text="camera"
+
+
+
+        android:background="#1B616A" />
+    <Button
+        android:id="@+id/reportbutton2"
+        android:layout_width="106dp"
+        android:layout_below="@+id/image1"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/reportbutton1"
+
+        android:text="gallery"
+
+        android:background="#1B616A" />
+    <Button
+        android:id="@+id/reportbutton3"
+        android:layout_width="106dp"
+        android:layout_below="@+id/reportbutton1"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:text="save"
+
+
+
+        android:background="#1B616A" />
+    <Button
+        android:id="@+id/reportbutton4"
+        android:layout_width="106dp"
+        android:layout_below="@+id/reportbutton1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:text="set"
+        android:layout_toRightOf="@+id/reportbutton3"
+
+
+
+        android:background="#1B616A" />
+    <Button
+        android:id="@+id/reportbuttonshare"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/reportbutton4"
+
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:text="Share"
+
+
+
+
+        android:background="#1B616A" />
+
+
+
+</RelativeLayout>

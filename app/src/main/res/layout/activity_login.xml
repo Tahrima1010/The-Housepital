@@ -64,7 +64,7 @@
         android:id="@+id/showpassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Show Passwordd"/>
+        android:text="Show Password"/>
 
     <Button
         android:id="@+id/bit1"

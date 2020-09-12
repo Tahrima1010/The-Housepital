@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -31,8 +32,10 @@ public class CustomAdapter extends ArrayAdapter<Medicine> {
         Medicine medicine=medicineList.get(position);
         TextView t1=view.findViewById(R.id.demo1);
         TextView t2=view.findViewById(R.id.demo2);
+
         t1.setText("Name : "+medicine.getName());
         t2.setText("Dose : "+medicine.getDose());
+
         return view;
     }
 }
